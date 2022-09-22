@@ -1,0 +1,348 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: rgb(49, 92, 130);
+    display: flex;
+}
+
+.nav-list {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    white-space: noWrap;
+    font-size: larger;
+}
+
+.nav-list li {
+    List-style: none;
+    padding: 8px 15px;
+    margin-left: 2%;
+    text-decoration: none;
+    color: white;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+}
+
+
+div.wel{
+    /* background-color: aliceblue; */
+    right: 0%;
+    color: aliceblue;
+    text-align: right;
+    /* align-items: right; */
+    /* font-size: larger; */
+    /* display: inline; */
+    position:absolute;
+}
+
+.bod {
+    background-color: rgb(144, 176, 210);
+    /* background-image: linear-gradient(rgb(13,61,102),rgb(11, 151, 161)); */
+   
+}
+
+li:hover {
+    /* color: blue; */
+    background-color: rgb(13, 61, 102);
+    text-decoration: underline;
+}
+
+h2 a:hover{
+    color: rgb(10, 13, 63);
+    text-decoration: underline;
+}
+
+.background {
+    /* background-color: rgb(165, 73, 73); */
+    background-size: cover;
+    background-blend-mode: darken;
+    width: auto;
+    height: auto;
+}
+
+.footer {
+    width: 100%;
+    height: auto;
+    position: fixed;
+    text-align: center;
+    bottom: 0px;
+    background-color: rgb(13, 61, 102);
+    background-image: linear-gradient(rgb(13,61,102),rgb(11, 151, 161));
+    padding: 1%;
+}
+
+.heading {
+    /* overflow: hidden; */
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 10%;
+    padding: 1px;
+    text-shadow: 5px 5px 10px rgb(1, 1, 70);
+    background-color: rgb(13, 61, 102);
+    background-image: linear-gradient(rgb(13,61,102),rgb(11, 151, 161));
+}
+
+.heading img {
+    float: left;
+    overflow: auto;
+    width: 80px;
+    height: 80px;
+}
+
+
+.heading h1 {
+    float: left;
+    position: relative;
+    color: aliceblue;
+    font-size: 380%;
+    padding: 0.7%;
+    text-align: center;
+    width: 100%;
+}
+
+
+
+.hl {
+    position: relative;
+    align-items: left;
+    width: 10%;
+    padding: 3px;
+    padding-left: 20px;
+    height: 10%;
+    top: 2px;
+}
+
+.hr {
+    float:right;
+    position: relative;
+    width: 10%;
+    height: 10%;
+    padding: 3px;
+    padding-right: 20px;
+    right: 0px;
+    top: 2px;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+.row {
+    margin: 2%;
+    text-align: center;
+    /* height: 50%; */
+}
+
+/* .column {
+    float: left;
+    width: 33.33%;
+    padding: 1% 5%; 
+    /* padding: 20px; */
+    /* color: rgb(5, 35, 61); */
+/* }  */
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:768px) {
+    .column {
+        width: 100%;
+    }
+    .row{
+        display: grid;
+        
+    }
+}
+
+.column {
+    position: relative;
+    border-radius: 15px 50px;
+    float: left;
+    background: rgb(49, 92, 130);
+    background-image: linear-gradient(rgb(13,61,102),rgb(11, 151, 161));
+    padding: 18px;
+    width: 28%;
+    margin: 2%;
+    height: auto;
+}
+.column a{
+    color: white;
+    text-decoration: none;
+}
+.row h2{
+    padding: 10px;
+}
+
+
+.row h1{
+    margin: 0.5%;
+    margin-left: 20px;
+    white-space: noWrap;
+    position: relative;
+    border-radius: 15px 50px;
+    background: rgb(8, 49, 85);
+    background-image: linear-gradient(rgb(8, 49, 85),rgb(1, 3, 8));
+    padding: 20px;
+    width: 28%;
+    height: auto;
+    display: flex;
+    color: white;
+    text-decoration: underline;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+/* .row{
+    position:relative;
+} */
+
+.cont{
+    width: 100%;
+    height:80vh;
+    display: inline-flex;
+    background-color: rgb(110, 228, 239);
+}
+
+.frame1{
+    width: 30%;
+    height: 100%;
+    background-color: rgb(206, 176, 237);
+    background-image: linear-gradient(rgb(13,61,102),rgb(11, 151, 161));
+}
+
+.frame2{
+    width: 70%;
+    height: 100%;
+    background-color: rgb(189, 231, 243);
+    background-image: linear-gradient(rgb(68, 115, 180),rgb(39, 101, 107));
+}
+
+.left{
+    padding: 3px;
+    overflow: auto;
+    /* border: 1cm red; */
+    outline: #0a033b solid 5px;
+    border-radius: 15px;
+    margin: 12%;
+    margin-top: 9%;
+    width: 75%;
+    height: 75%;
+    background-color: rgb(49, 92, 130);
+    background-image: linear-gradient(rgb(232, 201, 225),rgb(110, 201, 207));
+}
+.left h1{
+    color: rgb(6, 60, 60);
+    
+    outline: #0a033b solid 6px;
+    width: 100%;
+    padding: 5px;
+    padding-left: 23%;
+    text-decoration: underline;
+    height: auto;
+    background-color: rgb(110, 201, 207);
+    background-image: linear-gradient(rgb(232, 201, 225),rgb(110, 201, 207));
+}
+button.btn {
+    outline: #0a033b solid 2px;
+    width: 100%;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding: 4px;
+    padding-left: 8px;
+    background-color: rgb(206, 176, 237);
+    background-image: linear-gradient(rgb(13,61,102),rgb(11, 151, 161));
+    color: white blue;
+}
+
+button.btn h2:hover{
+    text-decoration: underline;
+    background-color: rgb(110, 201, 207);
+    background-image: linear-gradient(rgb(232, 201, 225),rgb(110, 201, 207));
+}
+
+.form-group{
+    color: #0a033b;
+    /* justify-content: center; */
+    display: inline-flex;
+    margin: 1%;
+    margin-left: 4%;
+    
+}
+
+.fo h2{
+    margin-left: 4%;
+    margin-top: 1%;
+    text-decoration: underline;
+}
+
+
+.formi h2{
+    margin-left: 4%;
+    margin-top: 2%;
+    padding-top: 4%;
+    text-decoration: underline;
+    display: inline;
+}
+
+table ,th,td{
+   background-color: rgb(183, 215, 228);
+   margin: 2%;
+   margin-left: 4%;
+   padding: 0.5%;
+   border-color: #0a033b;
+   border: 1px solid;
+   /* overflow-x: auto; */
+}
+
+th{
+    text-align: center;
+    font-size: large;
+    padding: 4px;
+}
+td{
+    padding:8px;
+    /* text-align: center; */
+    width:max-content;
+    height: auto;
+}
+
+.tabl{
+    width: auto;
+    height:80%;
+    overflow-x: auto;
+    overflow-y: auto;
+    text-align: -webkit-center;
+}
+
+.hh2{ 
+    /* margin: 2%; */
+    margin-left: 14%;
+    /* margin-top: 3%; */
+    /* padding-top: 2%; */
+    text-decoration: underline;
+    font-size: larger;
+    display: inline;
+}
+
+.contain{
+    /* width: 100%; */
+    height: 100vh;
+    margin-top: -1%;
+    display: contents;
+    /* color: #0a033b; */
+    background-color: rgb(110, 201, 207);
+    background-image: linear-gradient(rgb(232, 201, 225),rgb(110, 201, 207));
+}
